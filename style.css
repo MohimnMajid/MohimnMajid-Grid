@@ -424,6 +424,8 @@ hr {
     width: 100%;
     height: auto;
     align-content: center;
+    scale: 1.1;
+    margin-left: 70px;
   }
 
   .third-row-post-2 {
@@ -432,9 +434,10 @@ hr {
     width: 100%;
     height: auto;
     grid-column: 1/2;
-    margin-left: 95px;
+    margin-left: 70px;
     grid-row: 3;
     align-content: center;
+    scale: 1.1;
   }
 
   .third-row-contact-1 {
@@ -456,7 +459,7 @@ hr {
     display: grid;
     grid-row: 5;
     grid-column: 1;
-    scale: 0.685;
+    scale: 0.635;
   }
 
   .third-row-end-text {
@@ -495,6 +498,9 @@ hr {
     width: 400px;
     scale: 1;
     transition: all 0.3s;
+  }
+  body {
+    scale: 0.9;
   }
 }
 
